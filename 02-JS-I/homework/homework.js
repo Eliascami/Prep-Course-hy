@@ -7,7 +7,7 @@ const nuevaString = "hola";
 const nuevoNum = 8;
 
 // Crea una variable booleana:
-const nuevoBool = True;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -179,11 +179,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-    return "es positivo";
+    return "Es positivo";
   } else if (numero < 0) {
-    return "es negativo";
+    return "Es negativo";
   } else {
-    return "error";
+    return false;
   }
 }
 
@@ -207,7 +207,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = "hola " + nombre + "!";
+  var saludo = "Hola " + nombre + "!";
   return saludo;
 }
 
@@ -230,7 +230,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-    var area = (alto * ancho) / 2;
+    var area = (base * altura) / 2;
     return area;
 }
 
@@ -251,17 +251,17 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra == "a") {
-    return "es vocal";
+    return "Es vocal";
   } else if (letra == "e") {
-    return "es una vocal";
+    return "Es vocal";
   } else if (letra == "i") {
-    return "es una vocal";
+    return "Es vocal";
   } else if (letra == "o") {
-    return "es una vocal";
+    return "Es vocal";
   } else if (letra == "u") {
-    return "es una vocal";
+    return "Es vocal";
   } else {
-    return "dato incorrecto"
+    return "Dato incorrecto"
   }
 }
 
